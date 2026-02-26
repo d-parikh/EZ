@@ -1,6 +1,6 @@
 import { useState, useCallback } from "react";
 import type { TreeNode } from "../types/tree";
-import { getNextLevel } from "../data/initialtree";
+import { fetchChildren, getNextLevel } from "../data/initialtree";
 
 let nextId = 100;
 const generateId = () => String(nextId++);
