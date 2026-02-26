@@ -11,7 +11,7 @@ const App = () => (
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path="/tree" element={<Index />} />
+        <Route path="/" element={<Index />} />
         <Route path="/kanban" element={<KanbanBoard />} />
       </Routes>
     </BrowserRouter>

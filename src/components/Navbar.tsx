@@ -7,7 +7,7 @@ const Navbar = () => {
 
       <div className="flex gap-2">
         <NavLink
-          to="/tree"
+          to="/"
           className={({ isActive }) =>
             `py-2 rounded-md text-sm font-medium transition hover:underline ${
               isActive
