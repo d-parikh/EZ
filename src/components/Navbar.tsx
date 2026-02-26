@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="flex items-center justify-between px-6 py-3 bg-white shadow w-full">
-      <h1 className="text-lg font-semibold">EZ Task</h1>
+      <h1 className="text-lg font-semibold">Task Manager</h1>
 
       <div className="flex gap-2">
         <NavLink
